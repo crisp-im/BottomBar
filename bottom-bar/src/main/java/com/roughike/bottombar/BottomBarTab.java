@@ -187,7 +187,7 @@ public class BottomBarTab extends LinearLayout {
         return (ViewGroup) getParent();
     }
 
-    AppCompatImageView getIconView() {
+    public AppCompatImageView getIconView() {
         return iconView;
     }
 
